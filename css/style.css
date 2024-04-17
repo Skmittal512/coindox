@@ -1,0 +1,2073 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border-bottom-width: 0px !important;
+    margin: 0;
+    font-family: "Titillium Web", Sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ol,
+ul {
+    padding-left: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 14px 90px;
+    background-color: #0B0E13;
+    box-shadow: 0px 8px 77px 0px rgba(0, 0, 0, 0.71);
+}
+
+.navbar-toggler {
+    background-color: #107F64;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.dropend .dropdown-toggle {
+    margin-left: 1em;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+    --bs-dropdown-bg: #000;
+    --bs-dropdown-link-color: #fff;
+    --bs-dropdown-link-hover-bg: #000;
+    padding: 20px 20px 20px 10px;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+
+
+}
+
+.dropdown .dropdown-menu li:hover>a {
+    letter-spacing: 1px;
+    transition: 0.4s all ease-in-out;
+}
+
+.dropdown .dropdown-menu li>a {
+    transition: 0.4s all ease-in-out;
+    font-size: 18px;
+}
+
+li.nav-item {
+    padding-right: 24px;
+}
+
+a.nav-link {
+    font-weight: 600;
+}
+
+.bt {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/hd_btn_bg.svg");
+    padding: 13px 27px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    color: #fff;
+}
+
+svg.svg-inline--fa.fa-user {
+    margin-right: 10px;
+    color: #2167e8;
+}
+
+.bt:hover {
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/hd_btn_bg-hover.svg");
+}
+
+ul.navbar-nav.w-85.justify-content-center {
+    width: 82%;
+}
+
+.action .dropdown-menu .dropdown-item img {
+    width: 20px;
+    margin-right: 7px;
+}
+
+.action a {
+    min-width: 163px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.action .dropdown-menu .dropdown-item {
+    color: #fff;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none !important;
+}
+
+.action span.globe {
+    margin-right: 11px;
+    background-image: url(https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/lang_bg.svg);
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.section1 {
+    overflow-x: hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 850px;
+    padding-top: 200px;
+    padding-bottom: 315px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/blockchain_hero_bg.png");
+}
+
+.section1 h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 35px;
+    line-height: 1.1;
+}
+
+.section1 p {
+    color: #B3AB9E;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.blc-btn {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15px 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.blc-btn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url(https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/btn-border.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.blc-btn:hover::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transition: 0.5s;
+    background-image: url(https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/btn-border-hover.svg);
+}
+
+.blc-btn:hover {
+    transform: translateY(-2px);
+}
+
+.w-btn::before {
+    background-image: url(https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/btn-border-white.svg);
+}
+
+.w-btn:hover::before {
+    background-image: url(https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/btn-border.svg);
+}
+
+.section1 .pos-rel {
+    position: relative;
+}
+
+.section1 .pos-rel span {
+    color: #fff;
+    padding-top: 35px;
+    font-weight: 600;
+}
+
+.section1 .i-txt1 {
+    position: absolute;
+    top: -10px;
+    left: 25%;
+}
+
+.section1 .i-txt2 {
+    position: absolute;
+    bottom: -373px;
+    left: 15%;
+}
+
+.section1 .i-txt3 {
+    position: absolute;
+    top: -15px;
+    right: -32%;
+}
+
+.section1 .i-txt4 {
+    position: absolute;
+    bottom: -373px;
+    right: -24%;
+
+}
+
+.section2 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding: 100px 0px 110px 0px;
+}
+
+.section2 h2 {
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: -2px;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 0px 0px 25px 0px;
+}
+
+.section2 p {
+    color: #fff;
+}
+
+.section2 .icon-box {
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/ui_bg1-1.png");
+    z-index: 2;
+    background-position: center 17px;
+    background-repeat: no-repeat;
+    margin-right: -90px;
+    background-position-x: -39px;
+    padding: 50px;
+    padding-right: 45px;
+    position: relative;
+}
+
+.section2 .icon-box::before {
+    position: absolute;
+    top: 46px;
+    left: 2px;
+    width: 54px;
+    height: 64px;
+    content: "";
+    background-color: #fff;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.section2 .col-lg-5 h3 {
+    letter-spacing: -0.96px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.section2 img.p {
+    position: relative;
+    bottom: -22px;
+    left: -38px;
+}
+
+.section2 .icon-box li span {
+    position: absolute;
+    left: 20px;
+}
+
+.section2 .icon-box h4 {
+    color: #fff;
+    letter-spacing: -0.96px;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.section2 .icon-box ul {
+    margin-top: 45px;
+}
+
+.section2 .icon-box p {
+    color: #B3AB9E;
+    font-size: 15px;
+}
+
+.section2 .col-lg-2 {
+    position: relative;
+}
+
+.section2 .col-lg-2 .zin {
+    position: absolute;
+    bottom: 80px;
+    right: -110px;
+}
+
+.section2 .icon-box2 {
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/ui_bg1-1.png");
+    z-index: 2;
+    background-position: center 17px;
+    background-repeat: no-repeat;
+    margin-right: -90px;
+    background-position-x: -39px;
+    padding: 50px;
+    padding-right: 45px;
+    position: relative;
+}
+
+.section2 .icon-box2::before {
+    position: absolute;
+    width: 54px;
+    height: 64px;
+    content: "";
+    background-color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    left: auto;
+    right: 115px;
+    bottom: 45px;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.section2 .icon-box2 li span {
+    position: absolute;
+    left: 20px;
+}
+
+.section2 .icon-box2 h4 {
+    color: #fff;
+    letter-spacing: -0.96px;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.section2 .icon-box2 ul {
+    margin-top: 45px;
+}
+
+.section2 .icon-box2 p {
+    color: #B3AB9E;
+    font-size: 15px;
+}
+
+.section3 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding: 0px 0px 80px 0px;
+}
+
+.section3 .w-img {
+    position: relative;
+    z-index: 1;
+}
+
+.section3 .w-img .icon {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.section3 .w-img .shape1 {
+    position: absolute;
+    left: -92px;
+    top: 6%;
+    z-index: -1;
+}
+
+.section3 .w-img .shape2 {
+    position: absolute;
+    right: 110px;
+    top: 33%;
+    z-index: -1;
+}
+
+.section3 h2 {
+    color: #fff;
+    font-size: 48px;
+    letter-spacing: -2px;
+    line-height: 1.1;
+    padding: 120px 0px 25px 0px;
+}
+
+.section3 p {
+    color: #B3B3C0;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+
+.section3 .i span {
+    color: #fff;
+    font-family: "Outfit", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.section3 .col-lg-6.w {
+    display: flex;
+    align-items: end;
+}
+
+.section4 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding: 0px 0px 40px 0px;
+}
+
+.section4 h2 {
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: -2px;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 0px 0px 25px 0px;
+}
+
+.section4 .table {
+    --bs-table-color: #fff;
+    --bs-table-bg: unset !important;
+    --bs-table-border-color: unset !important;
+}
+
+.section4 p {
+    color: #B3B3C0;
+    margin-bottom: 40px;
+}
+
+.section4 .pi {
+    background-repeat: no-repeat;
+    border-collapse: separate;
+    padding: 50px;
+    table-layout: auto;
+    border-spacing: 0;
+    fill: #0B0E13;
+    stroke: #262932;
+    position: relative;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/table_bg.svg");
+}
+
+.table::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 54px;
+    height: 64px;
+    content: "";
+    background-color: #fff;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    transition: 0.3s;
+}
+
+.table::after {
+    position: absolute;
+    bottom: 31px;
+    right: 7px;
+    width: 54px;
+    height: 64px;
+    content: "";
+    background-color: #fff;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    transition: 0.3s;
+}
+
+.section4 .overlay-img {
+    padding: 0px 0px 100px 0px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/advantages_bg.png");
+    background-position: 0px 160px;
+    background-repeat: no-repeat;
+}
+
+.section4 table td,
+.section4 table th {
+    padding: 20px 25px 20px 25px;
+}
+
+.section5 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding: 0 0px 70px 0px;
+}
+
+.section5 h2 {
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: -2px;
+    padding: 0px 0px 25px 0px;
+}
+
+.section5 p.t1 {
+    color: #B3B3C0;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0px 0px 40px 0px;
+}
+
+.section5 .w-img {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.section5 .w-img .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section5 .w-img .shape1 {
+    position: absolute;
+    top: -7%;
+    left: 32%;
+    z-index: -1;
+}
+
+.section5 .w-img .shape2 {
+    position: absolute;
+    left: 6%;
+    bottom: -3%;
+    z-index: -1;
+}
+
+.section5 .w-img .shape3 {
+    position: absolute;
+    right: 30px;
+    bottom: 5%;
+    z-index: -1;
+}
+
+.section5 .i-con h4 {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: -0.54px;
+}
+
+.section5 ul li {
+    position: relative;
+}
+
+.section5 ul li::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    bottom: 0;
+    background: #15B785;
+    left: 0;
+    transition: all .5s linear;
+}
+
+.section5 ul li:hover::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 82%;
+    bottom: 0;
+    background: #15B785;
+    left: 0;
+    transition: all .5s ease-in-out;
+}
+
+.section5 .i-con p {
+    color: #B3B3C0;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.section5 .col-lg-6.w {
+    display: flex;
+    align-items: center;
+}
+
+.section6 {
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+.section6 h2.tp {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 0px 0px 25px 0px;
+    font-size: 48px;
+}
+
+.section6 p {
+    color: #B3B3C0;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.section6 h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.section6 li {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #262932 !important;
+
+    height: 60px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.section6 li span {
+    width: 50%;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3C0;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/t_data_bg.png");
+}
+
+.section6 li b {
+    padding-left: 32px;
+}
+
+.section7 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding-top: 100px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/team_sec_bg.png");
+    background-position: 0px 160px;
+    background-repeat: no-repeat;
+}
+
+.section7 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 0px 0px 25px 0px;
+}
+
+.section7 p {
+    color: #B3B3C0;
+}
+
+.section7 .img-box {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    padding: 40px 45px;
+    margin-left: -40px;
+    margin-right: -40px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/team_bg1.png");
+}
+
+.section7 .img-box2 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    padding: 40px 45px;
+    margin-left: -40px;
+    margin-right: -40px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/team_bg1.png");
+}
+
+.section7 .img-box3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    padding: 40px 45px;
+    margin-left: -40px;
+    margin-right: -40px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/team_bg1.png");
+}
+
+.section7 .img-box4 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    padding: 40px 45px;
+    margin-left: -40px;
+    margin-right: -40px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/team_bg1.png");
+}
+
+.section7 .avatar img {
+    filter: grayscale(100%);
+}
+
+.section7 .img-box::before {
+    position: absolute;
+    top: -3px;
+    left: 37px;
+    width: 36px;
+    height: 42px;
+    content: "";
+    background-color: #fff;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    transition: 0.3s;
+}
+
+.section7 .img-box2::before {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    width: 36px;
+    height: 42px;
+    content: "";
+    background-color: #fff;
+    transition: 0.3s;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.section7 .img-box3::before {
+    position: absolute;
+    top: -3px;
+    left: 37px;
+    width: 36px;
+    height: 42px;
+    content: "";
+    background-color: #fff;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    transition: 0.3s;
+}
+
+.section7 .img-box4::before {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    width: 36px;
+    height: 42px;
+    content: "";
+    background-color: #fff;
+    transition: 0.3s;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+/* .section7 .img-box:hover .img-box::before{
+    background-color: #12b883;
+} */
+.section7 h3.t1 {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    margin-bottom: 12px;
+}
+
+.section7 .rating {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    height: 28px;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section7 .rating span {
+    margin-right: 5px;
+}
+
+.section8 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding-top: 100px;
+}
+
+.section8 .r-box {
+    background-position: center 17px;
+    background-repeat: no-repeat;
+    margin-right: -90px;
+    padding: 50px;
+    padding-right: 45px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/td_bg.png");
+}
+
+.section8 .r-box .icon {
+    padding-top: 80px;
+}
+
+.section8 .r-box h2 {
+    color: #fff;
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.section8 .r-box p.st {
+    font-size: 20px;
+    color: #fff;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.section8 .r-box p.st2 {
+    color: #B3B3C0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.section8 .col-lg-6.offset-lg-2 {
+    display: flex;
+    align-items: center;
+}
+
+.section9 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding-top: 120px;
+}
+
+.section9 h2 {
+    color: #fff;
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 0px 0px 25px 0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.section9 p {
+    color: #B3B3C0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.section9 .img-box {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 40px 45px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/team_bg1.png");
+}
+
+.section9 .img-box::before {
+    position: absolute;
+    top: 40px;
+    left: 53px;
+    width: 82px;
+    height: 97px;
+    content: "";
+    background-color: #fff;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    transition: 0.3s;
+}
+
+.section9 .img-box2::before {
+    position: absolute;
+    right: 79px;
+    bottom: 60px;
+    width: 66px;
+    height: 67px;
+    content: "";
+    background-color: #fff;
+    transition: 0.3s;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.section9 .img-box2 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    padding: 45px 45px 95px 45px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/rm_bg2.png");
+}
+
+.section9 .img-box .icon {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.section9 .img-box2 .icon {
+    position: absolute;
+    left: -55px;
+    bottom: 80px;
+
+}
+
+.section9 .img-box .content {
+    padding: 40px 0 0 62px;
+}
+
+.section9 .content h3 {
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.22px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.section9 .content li {
+    color: #B3B3C0;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.section9 .content li::before {
+    position: absolute;
+    content: "";
+    left: -20px;
+    width: 10px;
+    height: 2px;
+    content: "";
+    background-color: #fff;
+    top: 30%;
+}
+
+.section9 .pt {
+    padding-top: 100px;
+}
+
+.section10 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding-top: 100px;
+}
+
+.section10 h2.heading {
+    color: #fff;
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 0px 0px 25px 0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.section10 p {
+    color: #B3B3C0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.section10 .accordion-item {
+    color: #fff !important;
+    background-color: #000 !important;
+    border: unset !important;
+}
+
+.section10 .accordion {
+    --bs-accordion-color: #fff !important;
+    --bs-accordion-bg: #000 !important;
+}
+
+.section10 .accordion-button:focus {
+    z-index: 3;
+    outline: none;
+    outline: 0;
+    border-color: #000;
+    box-shadow: unset;
+}
+
+.section10 .accordion-button {
+    color: #fff !important;
+    font-size: 26px;
+    padding: 30px 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+}
+
+.section10 .accordion-button:not(.collapsed) {
+    background-color: #000 !important;
+}
+
+.section10 .accordion-body {
+    color: #B3B3C0;
+}
+
+.section11 {
+    overflow-x: hidden;
+    background-color: #000;
+    padding: 120px 0;
+}
+
+.section11 .overlay {
+    background-repeat: no-repeat;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/brand_bg.png");
+}
+
+.section11 .container {
+    background-size: cover;
+    padding: 80px 40px;
+    position: relative;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/faq_bg.png");
+
+}
+
+.section11 .container::before {
+    position: absolute;
+    top: 29px;
+    left: 38px;
+    width: 54px;
+    height: 65px;
+    content: "";
+    background-color: #fff;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    transition: 0.3s;
+}
+
+.section11 img {
+    opacity: 0.4;
+    transition: 0.4s all ease-in-out;
+}
+
+.section11 img:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+    transition: 0.4s all ease-in-out;
+}
+
+.section11 .container::after {
+    position: absolute;
+    width: 54px;
+    height: 56px;
+    content: "";
+    bottom: -3px;
+    background-color: #fff;
+    right: 37px;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.section11 h2 {
+    color: #fff;
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 0px 0px 25px 0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.section11 p {
+    color: #B3B3C0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.footer {
+    overflow-x: hidden;
+    padding-top: 100px;
+    background-image: url("https://coindox.xpressbuddy.com/wp-content/uploads/2023/09/footer_bg2.jpg");
+}
+
+.footer .u {
+    border-top: 1px solid #262932;
+    padding: 70px 0;
+}
+
+.footer .v {
+    border-top: 1px solid #262932;
+    padding: 30px 0;
+}
+
+.footer h2 {
+    color: #fff;
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    padding: 0px 0px 25px 0px;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.footer form input {
+    outline: none;
+    height: 60px;
+    width: calc(100% - 190px);
+    padding-left: 40px;
+    background-image: url(https://coindox.xpressbuddy.com/wp-content/themes/coindox/assets/img/form_bg.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+    margin-bottom: 0;
+}
+
+.footer .blc-btn {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.footer .f-w1 {
+    display: inline-block;
+    min-width: 223px;
+    padding: 30px;
+    padding-top: 38px;
+    border-radius: 5px;
+    background: linear-gradient(98deg, #2167e8 0%, #12b883 100%);
+}
+
+.footer .f-w1 h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-white);
+    margin-bottom: 27px;
+    letter-spacing: -0.54px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.footer .f-w1 a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #0B0E13;
+    padding: 10px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: inline-flex;
+}
+
+.footer .f-w2 h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer .f-w2 li a {
+    font-size: 18px;
+    color: #B3B3C0;
+}
+
+.footer .f-w2 li a:hover {
+    color: #fff;
+}
+
+.footer .f-w2 li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.footer .fc-1 span {
+    color: #fff;
+}
+
+.footer .fc-2 svg.svg-inline--fa.fa-facebook-f {
+    color: #fff;
+}
+
+.footer .fc-2 svg.svg-inline--fa.fa-linkedin-in {
+    color: #fff;
+}
+
+.footer .fc-2 svg.svg-inline--fa.fa-instagram {
+    color: #fff;
+}
+
+.footer .fc-2 svg.svg-inline--fa.fa-telegram {
+    color: #fff;
+}
+
+
+/*  */
+@media screen and (min-width: 769px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+    .dropend .dropdown-toggle {
+        margin-left: 0.5em;
+    }
+}
+
+/* media queries */
+/* Large screens (1405px upwards) */
+@media only screen and (min-width: 1405px) {
+    .section3 .w-img .shape2 {
+        position: absolute;
+        right: 42px;
+        top: 33%;
+        z-index: -1;
+    }
+
+}
+
+/* Laptops and desktops (1200-1405px) */
+@media only screen and (min-width: 1200px) and (max-width: 1405px) {
+    .section1 .i-txt3 {
+        position: absolute;
+        top: -15px;
+        right: -10%;
+    }
+
+    .section1 .i-txt4 {
+        position: absolute;
+        bottom: -373px;
+        right: -10%;
+    }
+
+    .section2 .col-lg-2 .zin {
+        position: absolute;
+        bottom: 80px;
+        right: -156px;
+    }
+
+    .section2 .icon-box2::before {
+        right: 40px;
+        bottom: 9px;
+    }
+
+    .section3 .w-img .shape2 {
+        position: absolute;
+        right: 10px;
+        top: 33%;
+        z-index: -1;
+    }
+}
+
+/* Tablets in landscape mode (992-1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    a.blc-btn.w-btn {
+        margin-top: 20px;
+    }
+
+    .section1 h1 {
+        font-size: 50px;
+    }
+
+    .section1 {
+        min-height: 536px;
+        padding-top: 76px;
+        padding-bottom: 40px;
+    }
+
+    .section1 .i-txt4 {
+        right: 0%;
+    }
+
+    .section2 {
+        padding: 0px;
+    }
+
+    .section2 .col-lg-5 {
+        width: 36.666667%;
+    }
+
+    .section2 .col-lg-2 {
+        visibility: hidden;
+    }
+
+    .section2 .icon-box::before {
+        left: 0px;
+    }
+
+    .section2 .icon-box2::before {
+        right: 0px;
+        bottom: 34px;
+    }
+
+    .section3 .w-img .shape2 {
+        right: 0px;
+        top: 33%;
+    }
+
+    .section7 .col-lg-3.col-md-6 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section7 .img-box::before {
+        top: 0px;
+        left: 56px;
+    }
+
+    .section7 .img-box2::before {
+        right: 56px;
+    }
+
+    .section7 .img-box3::before {
+        top: 0px;
+        left: 56px;
+    }
+
+    .section7 .img-box4::before {
+        right: 56px;
+    }
+
+    .section8 {
+        padding-top: 0px;
+    }
+
+    .section9 {
+        padding-top: 20px;
+    }
+
+    .section9 .img-box::before {
+        top: 28px;
+        left: 38px;
+    }
+
+    .section9 .img-box2::before {
+        right: 56px;
+        bottom: 108px;
+        width: 75px;
+        height: 89px;
+    }
+
+    .section11 .container::after {
+        right: 0px;
+        bottom: 42px;
+    }
+
+    .section11 .container::before {
+        top: 25px;
+        left: 30px;
+    }
+}
+
+/* Tablets in portrait mode (768-991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section1 {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .section1 h1 {
+        font-size: 50px;
+    }
+
+    .section1 .col-lg-6.p {
+        padding-top: 32px;
+    }
+
+    .section1 .i-txt2 {
+        bottom: -200px;
+    }
+
+    .section1 .i-txt3 {
+        right: 0%;
+    }
+
+    .section1 .i-txt4 {
+        bottom: -200px;
+        right: 0%;
+    }
+
+    .section2 {
+        padding: 100px 0px 50px 0px;
+    }
+
+    .section2 .icon-box {
+        margin-right: 0;
+        background-size: cover;
+    }
+
+    .section2 .icon-box::before {
+        top: 52px;
+        left: 10px;
+        width: 66px;
+        height: 73px;
+    }
+
+    .section2 .icon-box2 {
+        margin-right: 0;
+        background-size: cover;
+    }
+
+    .section2 .icon-box2::before {
+        right: 0px;
+    }
+
+    .section3 .col-lg-6.w.col-md-12 {
+        display: block;
+        text-align: center;
+    }
+
+    .section3 .w-img .shape2 {
+        right: 66px;
+    }
+
+    .section3 .w-img .shape1 {
+        left: -50px;
+    }
+
+    .section3 .w-img .icon {
+        left: 50%;
+    }
+
+    .table::after {
+        bottom: 55px;
+        right: 0px;
+    }
+
+    .section5 .icon {
+        padding-right: 20px;
+    }
+
+    .section5 .col-lg-6.w {
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .section7 .img-box::before {
+        top: 3px;
+        left: 43px;
+    }
+
+    .section7 .img-box3::before {
+        top: 3px;
+        left: 43px;
+    }
+
+    .section8 {
+        padding-top: 50px;
+    }
+
+    .section8 .col-lg-6.offset-lg-2 {
+        display: block;
+        text-align: center;
+    }
+
+    .section9 {
+        padding-top: 80px;
+    }
+
+    .section9 .img-box .content {
+        padding: 100px 0 0 120px;
+    }
+
+    .section9 .img-box::before {
+        top: 55px;
+        left: 72px;
+        width: 106px;
+        height: 123px;
+    }
+
+    .section9 .img-box2::before {
+        right: 105px;
+        bottom: 0px;
+    }
+
+    .section11 .container::before {
+        top: 20px;
+        left: 29px;
+    }
+
+    .section11 .container::after {
+        bottom: 28px;
+        right: 0px;
+    }
+
+    .section11 {
+        padding: 120px 0 40px 0;
+    }
+
+    .section11 .col-lg-2.col-md-3.col-sm-4.text-center.pb-lg-5 {
+        padding: 10px;
+    }
+
+    .footer {
+        padding-top: 50px;
+    }
+
+    .footer .u {
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+
+    .footer .col-md-6 {
+        text-align: center;
+    }
+}
+
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .section1 {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .section1 h1 {
+        font-size: 50px;
+    }
+
+    .section1 .col-lg-6.p {
+        padding-top: 32px;
+    }
+
+    .section1 .i-txt1 {
+        left: 0%;
+    }
+
+    .section1 .i-txt2 {
+        bottom: -200px;
+        left: 0;
+    }
+
+    .section1 .i-txt3 {
+        right: 0%;
+    }
+
+    .section1 .i-txt4 {
+        bottom: -200px;
+        right: 0%;
+    }
+}
+
+@media only screen and (max-width: 716px) {
+    .header {
+        padding: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .header {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 493px) {
+    a.blc-btn.w-btn {
+        margin-top: 20px;
+    }
+}
+
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and (max-width: 479px) {
+    .section1 {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .section1 h1 {
+        font-size: 50px;
+    }
+
+    .section1 .col-lg-6.p {
+        padding-top: 32px;
+    }
+
+    .section1 .i-txt1 {
+        left: 0%;
+    }
+
+    .section1 .i-txt2 {
+        bottom: -200px;
+        left: 0;
+    }
+
+    .section1 .i-txt3 {
+        right: -15px;
+    }
+
+    .section1 .i-txt4 {
+        bottom: -200px;
+        right: 0%;
+    }
+
+    .section1 .btns {
+        text-align: center;
+    }
+
+    .section2 {
+        padding: 20px 0;
+    }
+
+    .section3 .w-img .shape2 {
+        right: 0px;
+        top: 18%;
+    }
+
+    .section3 .w-img .icon {
+        left: 50%;
+    }
+
+    .section3 .w-img .shape1 {
+        left: -60px;
+    }
+
+    .section3 span.ps-lg-3 {
+        padding-left: 10px;
+    }
+
+    .section4 {
+        padding: 0;
+    }
+
+    .section4 .table::after {
+        bottom: 54px;
+        right: 0px;
+    }
+
+    .section5 .icon {
+        padding-right: 20px;
+    }
+
+    .section5 .w-img .shape1 {
+        top: -20%;
+        left: 32%;
+        opacity: 0.8;
+    }
+
+    .section5 .w-img .shape2 {
+        left: 6%;
+        bottom: -20%;
+        opacity: 0.8;
+    }
+
+    .section5 .w-img .shape3 {
+        right: -5px;
+        bottom: 20%;
+        opacity: 0.8;
+    }
+
+    .section5 .col-lg-6.w {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section6 h2.pb-lg-5.pb-md-4 {
+        padding-bottom: 20px;
+    }
+
+    .section7 .img-box.text-center {
+        margin-bottom: 30px;
+    }
+
+    .section7 .img-box2.text-center {
+        margin-bottom: 30px;
+    }
+
+    .section7 .img-box3.text-center {
+        margin-bottom: 30px;
+    }
+
+    .section7 .img-box::before {
+        top: 0px;
+        left: 50px;
+    }
+
+    .section7 .img-box2::before {
+        right: 50px;
+    }
+
+    .section7 .img-box3::before {
+        top: 0px;
+        left: 50px;
+    }
+
+    .section7 .img-box4::before {
+        right: 50px;
+    }
+
+    .section8 {
+        padding-top: 0px;
+    }
+
+    .section8 .r-box h2 {
+        font-size: 48px;
+    }
+
+    .section8 .sec-title {
+        padding-right: 40px;
+    }
+
+    .section8 .r-box p.st {
+        font-size: 18px;
+    }
+
+    .section8 .icon.mb-lg-5 {
+        margin-bottom: 20px;
+    }
+
+    .section8 .content.mt-lg-3 {
+        padding-top: 10px;
+    }
+
+    .section9 {
+        padding-top: 60px;
+    }
+
+    .section9 .img-box::before {
+        top: 30px;
+        left: 40px;
+    }
+
+    .section9 .img-box2::before {
+        right: 60px;
+        bottom: 126px;
+        width: 41px;
+        height: 48px;
+    }
+
+    .section9 .img-box2 .icon {
+        right: 0;
+        top: 75px;
+        left: unset;
+        bottom: unset;
+    }
+
+    .section10 {
+        padding-top: 0;
+    }
+
+    .section11 {
+        padding: 60px 0;
+    }
+
+    .section11 img.img-fluid {
+        padding-bottom: 20px;
+    }
+
+    .section11 .container::after {
+        bottom: 52px;
+        right: 2px;
+    }
+
+    .footer form input {
+        width: 100%;
+        background-size: contain;
+        padding: 30px 100px;
+        margin-bottom: 18px;
+    }
+
+    .footer form {
+        padding-bottom: 40px;
+    }
+
+    .footer .row.mt-lg-5.u {
+        text-align: center;
+    }
+
+    .footer .x {
+        padding-bottom: 40px;
+    }
+
+    .footer .col-lg-10.col-md-8 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/*  */
+
+/*  */
+@media only screen and (max-width: 479px) {
+    .section1 .i-txt2 {
+        bottom: -150px;
+        left: 0;
+    }
+
+    .section1 .i-txt4 {
+        bottom: -150px;
+        right: 0%;
+    }
+
+    .section2 .icon-box2::before {
+        right: 80px;
+        bottom: 10px;
+    }
+}
+
+
+
+/* media query for nav */
+@media only screen and (min-width: 1520px) and (max-width: 1650px) {
+    ul.navbar-nav.w-85.justify-content-center {
+        width: 80%;
+    }
+
+    .section1 .i-txt3 {
+        right: -18%;
+    }
+
+    .section1 .i-txt4 {
+        right: -5%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1519px) {
+    ul.navbar-nav.w-85.justify-content-center {
+        width: 72%;
+    }
+
+    .section1 .i-txt3 {
+        right: -12%;
+    }
+
+    .section1 .i-txt4 {
+        right: -5%;
+    }
+}
+
+@media only screen and (min-width: 1158px) and (max-width: 1200px) {
+    ul.navbar-nav.w-85.justify-content-center {
+        width: 70%;
+    }
+
+    .justify-content-center {
+        justify-content: end !important;
+    }
+
+    div#navbarSupportedContent {
+        padding-left: 35px;
+    }
+
+    .section1 .i-txt4 {
+        right: -5%;
+    }
+}
+
+
+@media only screen and (min-width: 1079px) and (max-width: 1157px) {
+    ul.navbar-nav.w-85.justify-content-center {
+        width: 65%;
+    }
+
+    .justify-content-center {
+        justify-content: end !important;
+    }
+
+    div#navbarSupportedContent {
+        padding-left: 70px;
+    }
+
+    li.nav-item {
+        padding-right: 15px;
+    }
+
+    .section1 .i-txt3 {
+        right: -27%;
+    }
+
+    .section1 .i-txt4 {
+        right: -5%;
+    }
+
+    .section1 .i-txt3 {
+        right: -24%;
+    }
+}
+
+
+@media only screen and (min-width: 1016px) and (max-width: 1078px) {
+    ul.navbar-nav.w-85.justify-content-center {
+        width: 65%;
+    }
+
+    .header {
+        padding: 14px 30px;
+    }
+
+    .justify-content-center {
+        justify-content: end !important;
+    }
+
+    li.nav-item {
+        padding-right: 10px;
+    }
+
+    .header .ms-lg-5 {
+        margin-left: 2rem !important;
+    }
+
+    .section1 .i-txt1 {
+        left: 15%;
+    }
+
+    .section1 .i-txt3 {
+        right: -16%;
+    }
+
+    .section5 p.t1 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 852px) and (max-width: 1015px) {
+    ul.navbar-nav.w-85.justify-content-center {
+        width: 64%;
+    }
+
+    .header {
+        padding: 14px 20px;
+    }
+
+    .justify-content-center {
+        justify-content: end !important;
+    }
+
+    div#navbarSupportedContent {
+        padding-left: 60px;
+    }
+
+    li.nav-item {
+        padding-right: 4px;
+    }
+
+    .header .ms-lg-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    .section1 .i-txt1 {
+        left: 10%;
+    }
+
+    .section1 .i-txt3 {
+        right: -12%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 852px) {
+    ul.navbar-nav.w-85.justify-content-center {
+        width: 64%;
+    }
+
+    .header {
+        padding: 14px 20px;
+    }
+
+    .justify-content-center {
+        justify-content: end !important;
+    }
+
+    div#navbarSupportedContent {
+        padding-left: 60px;
+    }
+
+    li.nav-item {
+        padding-right: 2px;
+    }
+
+    .header .ms-lg-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    .header .logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    a.bt {
+        display: inline-block;
+    }
+}
